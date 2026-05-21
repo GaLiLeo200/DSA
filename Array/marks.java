@@ -4,15 +4,11 @@ public class marks {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the size of the array:");
         int n = sc.nextInt();
-        System.out.println("Enter the marks of " + n + " subjects:");
 
-        int[] marks = new int[n];
-        for(int i=0; i<marks.length; i++){
-            marks[i] = sc.nextInt();
-        }
-        for(int i=0; i<marks.length; i++){
-            System.out.println("Your marks[" + i + "]: " + marks[i]);
-        }
-    }
+        float[] numbers = new float[n];
+        for(int i=0; i<n; i++){
+            System.out.println(numbers[i]);
     
-}
+    };
+};
+};
